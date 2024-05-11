@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Vollkorn:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.Container {
+  width: 90%;
+  margin: auto;
+}
+
+@media (max-width: 580px) {
+  .Container {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #8b8b8d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4c4c4d;
+  border-radius: 10px;
+}

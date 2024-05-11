@@ -1,0 +1,16 @@
+.food-list {
+    margin-top: 30px;
+}
+
+.food-list-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    margin-top: 30px;
+    gap: 30px;
+}
+
+@media (max-width: 270px) {
+    .food-list-item {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+}
+}
